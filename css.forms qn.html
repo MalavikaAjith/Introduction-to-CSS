@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: lightcoral;
+        border-radius: 4px;
+    }
+    h1{
+        color: darkgreen;
+    }
+    input[type=text]{
+        border-radius: 4px;
+        padding: 10px 20px;
+        margin: 10px;
+
+    }
+    input[type=submit]{
+        text-align: center;
+        background-color: darkgreen;
+        color: white;
+        border-radius: 4px;
+    }
+    
+
+</style>
+<body>
+    <form action="">
+        <h1>Step 1: Your details</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="First and last name"><br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="example@domain.com"><br><br>
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" placeholder="Phone"><br><br>
+
+        <h1>Step 2: Delivery address</h1>
+        
+        <label for="text">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea><br><br>
+        <label for="post code">Post code</label>
+        <input type="text" id="post code"><br><br>
+        <label for="counry">Country</label>
+        <input type="text" id="country">
+
+        <h1>Step 3: Card details</h1>
+        <label for="card type">Card type</label><br><br>
+        <input type="checkbox" id="visa" value="Visa">
+        <label for="visa">VISA</label>
+        <input type="checkbox" id="amex" value="AmEx">
+        <label for="amex">AmEx</label>
+        <input type="checkbox" id="mastercard"  value="Mastercard">
+        <label for="mastercard">Mastercard</label><br><br>
+        <label for="card number">Card number</label>
+        <input type="text" id="card number"><br><br>
+        <label for="security code">Security code</label>
+        <input type="text" id="security code"><br><br>
+        <label for="name on card">Name on card</label>
+        <input type="text" id="name on card" placeholder="Exact name as on the card"><br><br>
+       <input type="submit" style="width: 200px; margin: 3px 100px ;" />
+    </form>
+    
+</body>
+</html>
